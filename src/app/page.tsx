@@ -29,7 +29,7 @@ export default function Home() {
               href="https://renaudmathieu.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl border border-black/10 dark:border-white/15 p-6 hover:shadow-lg transition-shadow"
+              className="rounded-xl border border-black/10 dark:border-white/15 bg-white/60 dark:bg-white/5 backdrop-blur-sm p-6 hover:bg-white/70 dark:hover:bg-white/10 hover:shadow-lg transition-shadow"
             >
               <h2 className="text-xl font-semibold">renaudmathieu.com</h2>
               <p className="text-sm opacity-80 mt-1">Visit renaudmathieu.com</p>
@@ -39,7 +39,7 @@ export default function Home() {
               href="https://doppio-lab.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl border border-black/10 dark:border-white/15 p-6 hover:shadow-lg transition-shadow"
+              className="rounded-xl border border-black/10 dark:border-white/15 bg-white/60 dark:bg-white/5 backdrop-blur-sm p-6 hover:bg-white/70 dark:hover:bg-white/10 hover:shadow-lg transition-shadow"
             >
               <h2 className="text-xl font-semibold">doppio-lab.com</h2>
               <p className="text-sm opacity-80 mt-1">Visit doppio-lab.com</p>
@@ -49,7 +49,7 @@ export default function Home() {
               href="https://locallegends.fr/"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl border border-black/10 dark:border-white/15 p-6 hover:shadow-lg transition-shadow"
+              className="rounded-xl border border-black/10 dark:border-white/15 bg-white/60 dark:bg-white/5 backdrop-blur-sm p-6 hover:bg-white/70 dark:hover:bg-white/10 hover:shadow-lg transition-shadow"
             >
               <h2 className="text-xl font-semibold">locallegends</h2>
               <p className="text-sm opacity-80 mt-1">Visit locallegends</p>
