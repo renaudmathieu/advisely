@@ -17,7 +17,7 @@ export default function Home() {
               priority
             />
           </div>
-          <h1 className="mt-6 text-4xl sm:text-5xl font-bold tracking-tight">Advisely</h1>
+          <h1 className="mt-6 text-4xl sm:text-5xl font-bold tracking-[0.2em]">Advisely</h1>
         </section>
       </header>
 
@@ -46,7 +46,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://locallegends.com"
+              href="https://locallegends.fr/"
               target="_blank"
               rel="noopener noreferrer"
               className="rounded-xl border border-black/10 dark:border-white/15 p-6 hover:shadow-lg transition-shadow"
