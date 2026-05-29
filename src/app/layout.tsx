@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Alegreya_Sans, Lalezar } from "next/font/google";
 import "./globals.css";
+import AnalyticsInit from "@/components/AnalyticsInit";
 
 const alegreyaSans = Alegreya_Sans({
   variable: "--font-alegreya-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${alegreyaSans.variable} ${lalezar.variable} antialiased`}>
+        <AnalyticsInit />
         {children}
       </body>
     </html>
